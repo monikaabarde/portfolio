@@ -1,3 +1,10 @@
+gsap.to(".home-content h1", {
+  scrollTrigger: {
+    scrub: 1,
+  },
+  scale: -4,
+});
+
 let index = 0;
 const totalWorkItems = $(".work-item").length;
 
